@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins';
+}
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li a {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    background-color: #fb3e44;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+.iconify {
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.logonpm {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.barnav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #DDD;
+
+}
+
+.twolink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    margin-left: 2vw;
+}
+
+.twolink a {
+    text-decoration: none;
+}
+
+.linkjoin {
+    border: black 1px solid;
+    margin-right: 6px;
+    width: 75px;
+    text-align: center;
+}
+
+.linklogin {
+    width: 75px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+    width: 970px;
+    padding-top: 70px;
+}
+
+section {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#bloque1 {
+    background-color: rgba(232, 217, 217, .3);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    height: 9px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+
+.button1 {
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+    color: white;
+    margin-right: 15px;
+    height: 35px;
+    width: 100px;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 10px;
+    width: 100px;
+    height: 35px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 140px;
+}
+
+
+#bloque2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image1 {
+    width: 140px;
+    height: 140px;
+    margin: 10px auto;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.title {
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: "Poppins";
+}
+
+.text2 {
+    height: 5px;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 120px;
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+.flexPadre {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexHijo {
+    max-width: 11vw;
+    padding-right: 3vw;
+    padding-left: 6vw;
+}
+
+h3 {
+    color: red;
+    font-size: 12px;
+}
+
+.title2 {
+    font-size: 11px;
+    font-weight: 900px;
+    font-family: "Poppins";
+    text-align: left;
+}
+
+.imgbottom {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+    display: block;
+}
+
+.create {
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+    color: white;
+    text-align: center;
+    width: 25vw;
+    height: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.bottomButton {
+    padding-top: 3vh;
+}
